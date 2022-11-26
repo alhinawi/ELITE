@@ -1,0 +1,104 @@
+body {
+  /* background-image:  linear-gradient(#fff, #e90c0c4d); */
+  background-image: url(../img/back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 70vh;
+  width: 100%;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+body.active {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/back.jpg);
+}
+
+.heading {
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+  border-bottom: 0.1rem solid var(--light-color);
+  font-size: 3rem;
+  color: var(--black-color);
+  text-transform: uppercase;
+  background-image: url(../img/back.jpg);
+}
+
+h2 {
+  font-size: 3rem;
+  color: var(--white-color);
+}
+
+
+.login {
+  text-align: center;
+  width: 50%;
+  height: 350px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.2);
+  outline: #fff;
+  margin-top: 150px;
+  padding-top: 50px;
+}
+
+.login input {
+  width: 50%;
+  display: inline-block;
+  margin-top: 20px;
+  outline: 1px white solid;
+  padding-top: 10px;
+}
+
+input {
+  width: 100%;
+  height: 35px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgba(17, 17, 17, 0.548);
+  margin: 5px 0px;
+  color: #fff;
+}
+
+input:focus {
+  background-color: black;
+  transform: scale(1.1);
+}
+
+#btnLo {
+  width: 50%;
+  margin-top: 35px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  background-color: #ff9500;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 1.9rem;
+}
+
+button:hover {
+  background-color: #d8820b;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+
+.sign-up {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.sign-up:hover {
+  color: #ff9500;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+
+
+#alert {text-align: center;}
